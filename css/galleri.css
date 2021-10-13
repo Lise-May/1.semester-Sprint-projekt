@@ -1,0 +1,74 @@
+/* basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #000000;
+}
+
+.carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 20px;
+    top:100px;
+    border-radius: 15px;
+}
+
+
+
+#logo2 { 
+    position:fixed;
+    top: 0;
+    right:0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #c8ab84;
+    letter-spacing: 5px;
+    font-size: 70%; 
+}
+
+/* CSS for navigations bar */
+.menu-bar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+/* Links inde i menuen */
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* skifter baggrund når man holder musen over */
+.menu-bar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.skub-ned {
+    margin-bottom: 50px;
+}

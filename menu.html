@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spröd By Bojesen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+</head>
+
+<body>
+    <div class="menu-bar">
+        <a href="index.html">Hjem</a>
+        <a href="anmeldelser.html">Anmeldelser</a>
+        <a href="menu.html">Menu</a>
+        <a href="galleri.html">Galleri</a>
+    </div>
+
+    <div class="container">
+
+        <h2 id="menu"><img src="Images-menu/lillepizza.png" alt=lillepizza width="40" /> Menu Kort <img src="Images-menu/lillepizza.png" alt=lillepizza width="40"></h2>
+        <div id="pizza">
+            <img src="Images-menu/storpizza.png" alt= storpizza width="150">
+        </div>
+
+
+        <h3>Antal pizzaer: <span id="antal"> 0 </span></h3>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>MARGRETHE - Tomat, Bøffelmozzarella, Frisk Basilikum & Olivenolie<span class="priser">90,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+                <tr>
+                    <td>VIBEKE - Tomat, Fior di latte, Friske tomater, Bøffelmozzarella, frisk basilikum & Hjemmelavet Pesto<span class="priser">105,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+                <tr>
+                    <td>LOUISE - Mascarpone, Bøffelmozzarella, Svampe, Trøffelolie & ristede pinjekerner<span class="priser">100,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+                <tr>
+                    <td>SVEN - Fior di latte, Kartoffel, Gedeost, Rosmarin, Grøn chili & Havsalt <span class="priser">100,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+                <tr>
+                    <td>ANNA - Tomat, Fior di latte, Parmaskinke, Rucola, Parmasan & Olivenolie <span class="priser">110,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+                <tr>
+                    <td>SØREN - Tomat, Fior di latte, Ventricina salami, Kalamata oliven, gule pepper drops & Friske urter <span class="priser">110,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+                <tr>
+                    <td>ALBERTE - Tomat, Fior di latte, Dansk velfærdsskinke & Friske urter <span class="priser">110,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+                <tr>
+                    <td>ANTON - Tomat, Fior di latte, Salami milano, Rødløg & Friske urter <span class="priser">110,-</span><span onclick="addPizza()" class="plusIcon glyphicon glyphicon-plus-sign"></span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <p>Spröd By Bojesen || Tlf nr: +45 53575353 || Mail: kontakt@sprod.dk || Rosenvangs alle 214, 8270 Højbjerg || Copyright &#169; 2020</p>
+        </footer>
+    </div>
+
+
+    <script>
+        var tæller = 0;
+        var beløbTæller = 0;
+
+
+        function addPizza() {
+
+            var getAntalPizza = document.getElementById("antal");
+
+            tæller++;
+
+            getAntalPizza.innerHTML = tæller;
+        }
+
+        function addBeløb() {
+
+            var getAmount = document.getElementById("beløb");
+            console.log(getAmount);
+        }
+    </script>
+
+
+</body></html>

@@ -1,0 +1,99 @@
+.pizza {
+    color: red;
+}
+
+.priser {
+    float: right;
+}
+
+body {
+    background-color: #000000;
+}
+
+h3 {
+    color: #c8ab84;
+    font-family: fantasy;
+
+}
+
+tr {
+    color: #c8ab84;
+    font-family: fantasy;
+}
+
+#menu {
+    color: #c8ab84;
+    font-family: fantasy;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+tr:hover {
+    color: #bfbfbf;
+}
+
+.plusIcon {
+    float: right;
+    padding-right: 1%;
+}
+
+.plusIcon:hover {
+    color: #ffffff;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #c8ab84;
+    letter-spacing: 5px;
+    font-size: 70%;
+}
+
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+#pizza {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #c8ab84;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+/* CSS for navigations bar */
+.menu-bar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+/* Links inde i menuen */
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* skifter baggrund når man holder musen over */
+.menu-bar a:hover {
+  background: #ddd;
+  color: black;
+}

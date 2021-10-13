@@ -1,0 +1,58 @@
+/* basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #003300;
+}
+
+
+/* ----------- Logo -------- */
+#logo-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* ----- Main --- */
+.navigation_element {
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    color: rgb(250, 245, 245);
+    size: 26;
+}
+
+/* CSS for navigations bar */
+.menu-bar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+/* Links inde i menuen */
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* skifter baggrund når man holder musen over */
+.menu-bar a:hover {
+  background: #ddd;
+  color: black;
+}
